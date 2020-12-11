@@ -1,0 +1,49 @@
+.footer {
+	background-color: #00153B;
+	margin: 0px;
+	margin-top: 50px;
+	padding: 20px;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.footer div {
+	align-items: center;
+    justify-content: space-around;  
+    margin: 10px;
+    display: flex;
+}
+
+
+.footer h3 {
+	padding: 0px 10px;
+	font-weight: lighter;
+}
+
+.footer h3:hover {
+	font-weight: bold;
+}
+
+.footer i {
+	font-size: 30px;
+	color : rgb(180,180,180);
+}
+
+.footer i:hover {
+	font-weight: bold;
+}
+
+
+#card-footnav  {
+	flex-grow: 1;
+}
+
+#card-socialmedia  {
+	flex-basis: 200px;
+}
+
+#card-socialmedia i:hover {
+	color: white;
+}
